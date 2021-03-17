@@ -1,0 +1,18 @@
+.mother{
+    margin: 0;
+    height: 200vh;
+    background-color: aqua;
+    }
+
+
+.but{
+    display: flex;
+    flex: 12px;
+    align-items: center;
+    
+    justify-content: center;
+}
+.nav{
+    /* display: flex; */
+    justify-content: center;
+}
