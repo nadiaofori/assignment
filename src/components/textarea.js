@@ -5,7 +5,8 @@ function Textarea(props){
 
     return(
         <div>
-            <textarea name="outputtext"/>
+            <textarea clasName="test" style={{margin:props.margin, width:props.width,
+                height:props.height, borderRadius:props.borderRadius }}/>
             {props.Textarea}
         </div>
     )

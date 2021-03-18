@@ -1,18 +1,75 @@
 .mother{
     margin: 0;
-    height: 200vh;
-    background-color: aqua;
+    padding: 0;
+    height: 150vh;
+    background-image: url('../images/unnamed.png');
     }
-
 
 .but{
     display: flex;
-    flex: 12px;
-    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+    
+}
+.nav{
     
     justify-content: center;
 }
-.nav{
-    /* display: flex; */
+.ht{
+    display: flex;
     justify-content: center;
+
+}
+.slip{
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    flex: content;
+    align-items: center;
+    justify-content: center;
+}
+.textarea{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column ;
+    
+}
+.test{
+    border-radius: 15px;
+    background-color:#3BB143;
+    margin: 20px ;
+    padding: 15px 15px;
+}
+
+.input{
+    border-radius: 15px;
+    background-color:#FFF200;
+    margin: 20px ;
+    padding: 15px 15px;
+}
+
+
+.select{
+    border-radius: 15px;
+    background-color:#FFF200;
+    margin: 20px ;
+    padding: 15px 15px;
+}
+.rb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+}
+.button{
+    display: flex;
+    /* margin-right: 50px; */
+    /* justify-content: space-around; */
+    /* justify-content: left; */
+    flex-direction: column;
+    justify-content: space-between;
 }

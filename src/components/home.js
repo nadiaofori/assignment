@@ -16,39 +16,35 @@ function Home(){
     return(
         <div className="mother">
             <div className="nav">
-            <Navbar text="NADIA'S FRUITS SHOP"
-             color="blue" 
+            <Navbar  
+            Button text="Login" bgcolor="#FFF200" width={100} height={40} color="black" 
+             color="green" 
              fontWeight="800" 
-             padding="10px 30px"
+             padding="10px 10px"
              bgcolor="#fff"  />
+             <section className="button">
+             <Button text="Login" bgcolor="#FFF200" width={100} height={40} color="white" />
+             </section>
              </div>
 
-            <h1>YOUR ORDERS </h1>
+            <h1 className='slip'>YOUR ORDERS </h1>
+        <div className='main'>
 
-            <div className="but">
-
-            <Button text="Clear" bgcolor="white" width={100} height={40} color="black" />
-            <Button text="Login" bgcolor="#1e88e5" width={100} height={40} color="black" />
-            <Button text="Cancel" bgcolor="#880e4f" width={100} height={40} color="black" />
-            <Button text="Submit" bgcolor="#003300" width={100} height={40} color="black" />
-            <Button text="Checkin" bgcolor="grey" width={100} height={40} color="black" />
-            </div>
-
-            {/* <Button text={text} color={color} /> */}
-
-            <Checkbox margin="10px 10px" outer="20px 20px"/>
-            <br/>
-            <Dropdown className="dp"/>
-            <br/>
-            <br/>
-            <Inputfield Inputfield="text" Inputfield="number"/>
+            <Checkbox margin="10px 10px" outer="20px 20px" outline="20px"/>
+            <Dropdown />
+            <Inputfield Inputfield="number"/>
             <Radiobutton />
-            <br/>
-            <br/>
-            <br/>
-            <Textarea textarea name="outputtext"/>
-            <Typography text="What is your prefered fruit?"/>
+           <div className="textarea">
+                <h2><Typography text="Why is it your prefered fruit?"/></h2>
+            
+            <Textarea   margin={10}  width={1000} height={80} borderRadius={15}/>
         </div>
+            </div>
+            <div className="but">
+                <Button text="Submit" bgcolor="#FC6600" width={100} height={40} color="white" />
+                <Button text="Cancel" bgcolor="#FF2400" width={100} height={40} color="white" />
+            </div>     
+</div>
     )
 }
 

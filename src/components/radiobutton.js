@@ -1,14 +1,19 @@
 
 
-function Radiobutton(props){
+function Radiobutton(){
 
 
     return(
         <div>
-            <h3>Radiobutton</h3>
-            <input type="radio"/> ripped
-            <input type="radio"/> unripped
-            <input type="radio"/> semi-ripped
+            <h1>Radiobutton<br/> 
+
+
+             <input type="radio"/> Ripe
+             <input type="radio"/> Unripened
+             <input type="radio"/> Underdone
+            </h1>
+
+            
         </div>
     )
 }

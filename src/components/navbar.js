@@ -11,7 +11,7 @@ function Navbar(props){
                 color:props.bgcolor, 
                 
             }}>
-                {props.text}
+                <h1 className='ht'>NADIA'S FRUITS SHOP</h1>
              </nav>
         </div>
     )

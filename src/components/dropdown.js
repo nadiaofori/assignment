@@ -4,8 +4,8 @@ function Dropdown(props){
 
     return(
         <div >
-            <select>
-                <option>--choose one--</option>
+            <select className='select' >
+                <option >--choose one--</option>
                 <option>small-size</option>
                 <option>medium-size</option>
                 <option>large-size</option>

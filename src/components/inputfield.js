@@ -4,8 +4,11 @@ function Inputfield(props){
 
 
     return(
-        <div>
-            <input type={props.Inputfield} />
+        <div >
+        <h1>
+        Quantity 
+        </h1>
+            <input className="input" type={props.Inputfield} />
             
         </div>
     )
