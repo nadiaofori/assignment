@@ -2,7 +2,7 @@ import { useContextStore } from '../store/context'
 
 
 function Signup() {
-    const value = useContextStore(StoreContext);
+    const value = useContextStore();
 
 
 
